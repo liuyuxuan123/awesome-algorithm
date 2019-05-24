@@ -93,8 +93,8 @@
 		31EE612822979AB500D94F61 = {
 			isa = PBXGroup;
 			children = (
-				31E8FE892297DD0200FF1162 /* 3.4 从无头单链表中删除 */,
 				31E8FE942297DD3000FF1162 /* 3.1 字符串移位包含 */,
+				31E8FE892297DD0200FF1162 /* 3.4 从无头单链表中删除 */,
 				31EE613222979AB500D94F61 /* Products */,
 			);
 			sourceTree = "<group>";
