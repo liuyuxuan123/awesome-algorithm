@@ -4,10 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Awesome Algorithms.xcscheme_^#shared#^_</key>
+		<key>3.1 字符串移位包含.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>3.4 从无头单链表中删除.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>31E8FE872297DD0100FF1162</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>31E8FE922297DD3000FF1162</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>31EE613022979AB500D94F61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

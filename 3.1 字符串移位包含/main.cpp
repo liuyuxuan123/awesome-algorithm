@@ -12,26 +12,35 @@
 char src[] = "AABBCD";
 char des[] = "CDAA";
 
-bool contains(char* src, char* des){
-    
+bool primitiveRotateContains(char* src, char* des){
     int len = (int)strlen(src);
-    
     for(int i = 0; i < len; i ++){
         char temp = src[0];
         for(int j = 0;j < len - 1; j ++){
             src[j] = src[j + 1];
         }
         src[len - 1] = temp;
-        if( strstr(src, des) == 0){
+        if( strstr(src, des) != NULL ){
             return true;
         }
     }
     return false;
 }
 
+
+bool rotateContains(char* src, char* des){
+    
+    size_t len = strlen(src);
+    char* newSrc = new char[(int)(len * 2)];
+    strcat(newSrc, src);
+    strcat(newSrc, src);
+    return strstr(newSrc, des) != NULL;
+    
+}
+
 int main(){
     
-    bool result = contains(src, des);
+    bool result =  rotateContains(src, des);
     if(result){
         printf(" Contain 🐮🍺🍻 \n");
     }else {
